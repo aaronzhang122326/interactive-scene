@@ -71,6 +71,7 @@ function setup() {
   }
 
 function draw() {
+  //before game starts
   if (gameStart === false) {
     backGround();
     textSize(windowHeight/(600/30));
